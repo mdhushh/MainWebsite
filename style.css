@@ -4,17 +4,31 @@ body,html{
   height:100%;
   font-size:22px;
 }
-p{
-  font-family: 'Amatic SC', cursive;
+.pover{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size:16px;
 }
+.skillzzz{
+  font-family: 'Libre Franklin', sans-serif;
+  font-size:16px;
+}
+
 section{
   position:relative;
-  margin:0 -500px;
+  margin:0 -400px;
   padding: 50px 500px;
   text-align:center;
   margin-bottom:50px;
   margin-top:50px;
   height:320px;
+}
+.h1o{
+  background-color:#2ecc71;
+  border-radius:10px;
+}
+.h1n{
+  background-color:#e74c3c;
+  border-radius:10px;
 }
 
 #overSection{
@@ -69,4 +83,10 @@ font-weight:900;
 .topnav a.active {
     background-color: #4CAF50;
     color: white;
+}
+#linksfooter{
+  float:left;
+}
+#rechtsfooter{
+  float:right;
 }
